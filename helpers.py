@@ -128,4 +128,4 @@ def import_movies_data(dataPath):
     # filtering out movies without rating and 
     movies = movies[~movies["averageRating"].isna()]
 
-    return movies
+    return movies,characters
