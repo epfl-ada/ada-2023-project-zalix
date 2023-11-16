@@ -24,7 +24,7 @@ from statsmodels.stats.multicomp import pairwise_tukeyhsd
 
 
 
-def import_movies_data(dataPath):
+def import_movies_data(data_path):
     colnames_movies = [
     "wikipedia_movie_ID",
     "freebase_movie_ID",
@@ -56,20 +56,20 @@ def import_movies_data(dataPath):
 
 
 
-    movies = pd.read_csv(dataPath+"/CMU/movie.metadata.tsv",sep="\t",names=colnames_movies,header=None)
+    movies = pd.read_csv(data_path+"/CMU/movie.metadata.tsv",sep="\t",names=colnames_movies,header=None)
 
     characters = pd.read_csv(
-        dataPath+"/CMU/character.metadata.tsv", sep="\t", names=colnames_character, header=None
+        data_path+"/CMU/character.metadata.tsv", sep="\t", names=colnames_character, header=None
     )
 
 
 
     imdb_movies = pd.read_table(
-        dataPath+"/IMDB/title.basics.tsv",
+        data_path+"/IMDB/title.basics.tsv",
         sep="\t",
         usecols=["tconst", "originalTitle", "startYear", "runtimeMinutes"],
     )
-    imdb_ratings = pd.read_table(dataPath+"/IMDB/title.ratings.tsv", sep="\t")
+    imdb_ratings = pd.read_table(data_path+"/IMDB/title.ratings.tsv", sep="\t")
     movies["year_released"] = pd.to_datetime(
     movies["movie_release_date"], infer_datetime_format=True, errors="coerce"
     ).dt.year
@@ -113,7 +113,7 @@ def import_movies_data(dataPath):
 
 
 
-    # merge 'imdb_movies' with 'imdb_ratings':
+    # merge 'imdb_movies' with 'imdb_ratings'
     imdb_movies = pd.merge(left=imdb_movies, right=imdb_ratings, on="tconst")
 
     # merge 'movies' with 'imdb_movies' + 'imdb_ratings'
