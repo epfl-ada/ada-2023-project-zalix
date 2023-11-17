@@ -37,7 +37,7 @@ To validate this assumption and assess the potential impact of this bias on our 
 ### Linear Regression
 We performed linear regression to see the correlation between the time duration of movies and decades. Nevertheless, we plan to investigate other suitable methodologies in milestone 3 to improve our research approach
 
-## Proposed timeline ⏳
+## Proposed Timeline ⏳
 ```
 .
 ├── 1 Décembre : Homework 2 Deadline
