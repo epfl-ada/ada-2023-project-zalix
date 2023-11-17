@@ -61,7 +61,7 @@ We performed linear regression to see the correlation between the time duration 
 ```
 
 ## Organization within the team
-Imane: 
+Imane: Contribution to Readme implementation
 
 Xiyu: Genres and movies duration analysis 
 
