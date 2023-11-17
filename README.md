@@ -33,12 +33,16 @@ To validate this assumption and assess the potential impact of this bias on our 
 We performed linear regression to see the correlation between the time duration of movies and decades. Nevertheless, we plan to investigate other suitable methodologies in milestone 3 to improve our research approach
 
 ## Proposed timeline ⏳
+```
+.
+├── 1 Décembre : Homework 2 Deadline
+├── 10 Décembre 2023: Create an initial draft for the data story
+├── 15 Décembre 2023: Complete the code implementations and visualizations
+├── 20 Décembre 2023: Finalize the data story
+├── 22 Décembre 2023: Deadline for Milestone 3
+.
 
 ```
-1 Décembre : Homework 2 Deadline
-10 Décembre 2023: Create an initial draft for the data story
-15 Décembre 2023: Complete the code implementations and visualizations
-20 Décembre 2023: Finalize the data story
-22 Décembre 2023: Deadline for Milestone 3
+
 
 
