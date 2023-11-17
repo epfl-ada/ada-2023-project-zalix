@@ -41,10 +41,10 @@ We performed linear regression to see the correlation between the time duration 
 ```
 .
 ├── 1 Décembre : Homework 2 Deadline
-├── 10 Décembre 2023: Create an initial draft for the data story
-├── 15 Décembre 2023: Complete the code implementations and visualizations
-├── 20 Décembre 2023: Finalize the data story
-├── 22 Décembre 2023: Deadline for Milestone 3
+├── December 10, 2023: Create an initial draft for the data story
+├── December 15, 2023: Complete the code implementations and visualizations
+├── December 20, 2023: Finalize the data story
+├── December 22, 2023: Deadline for Milestone 3
 .
 
 ```
