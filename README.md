@@ -27,15 +27,25 @@ Stars
 ## Methods 🔤
 When dealing with the time-series movie dataset, we first break down our features of interest by decade, and then apply the following methodologies to carry out the analyses:
 
-### T-tests
+
+### Filtering of movies
+Our attention is directed towards a curated selection of movies that we categorize as likeable.  We choose that a movie earns the designation of being likeable if its rating is 7 or higher.
+
+
+### Selection of studied genres and T-test
 When examining the diverse genres within the dataset, we observe a high number of different genres, with certain genres covering only an insignificant number of movies.
-Consequently, we opt to filter out genres that contain fewer than 500 movies.
-We assume that the most "likeable" movies genres lie within the most common (with the most number of movies).
+We decide to focus on the top 10 genres that have the largest number of movies and label them as the “main genres”.
+Here we make the assumption that the most likable genres lie within the most common, therefore the results of our analysis will not be overly biased.
 To validate this assumption and assess the potential impact of this bias on our subsequent results, we will conduct a T-test.
-//// We simulate the t-tests 10 000 times to calculate the statistical power, and we use bootstrap with 10 000 draws to compute the 95% CI. We have been able to use t-tests without normality because of the central limit theorem. 
+
+### Log scaling or outliers removal
+When visualizing the distribution of movie runtimes, we observe instances where the runtime exceeds 5000 minutes.
+ For now, we decide to consider these movies as outliers and filter them out, but we could consider the duration as heavy-tailed data.
+Log scaling is also used for the genre vs number of movies plot.
 
 ### Linear Regression
 We performed linear regression to see the correlation between the time duration of movies and decades. Nevertheless, we plan to investigate other suitable methodologies in milestone 3 to improve our research approach
+
 
 ## Proposed Timeline ⏳
 ```
