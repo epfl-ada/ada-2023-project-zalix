@@ -126,6 +126,6 @@ def import_movies_data(data_path):
 
 
     # filtering out movies without rating and 
-    movies = movies[~movies["averageRating"].isna()]
+    movies = movies[~movies["averageRating"].isna()] # TODO: rename to 'avg_rating' to stay consistent on naming conventions
 
-    return movies,characters
+    return movies, characters

@@ -15,6 +15,8 @@ In our analysis, our objective is to evaluate whether the audience's perception 
 
 -Are there any trends or patterns in the distribution of durations for top-rated films over the years and is there a significant difference in the distribution of durations between different genres among top-rated films?
 
+-Does the presence of specific leading actors have a significant impact on film ratings, how the impact of these actors evolved over the years in influencing movie ratings 
+
 
 ## Additional Datasets 📈
 - [**IMDB Movies**](https://www.imdb.com/interfaces/) - In addition to defining a movie successful in financial terms, we want to make the definition more diverse by measuring success in terms of ratings. We have extracted two datasets from IMDb - one for making the merge with our movie data possible (`movie name,` `release year,` and `runtime`) and one for extracting the `average rating` and `number of votes` received.
