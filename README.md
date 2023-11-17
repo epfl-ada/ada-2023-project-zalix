@@ -55,7 +55,7 @@ Imane:
 
 Xiyu: 
 
-Zach: 
+Zach: carrying out analysis around impact on ratings by cast ethnic, gender and linguistic diversity
 
 Antoine: Data pre-processing. Actors' related research question
 
