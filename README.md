@@ -40,6 +40,7 @@ We performed linear regression to see the correlation between the time duration 
 ## Proposed Timeline ⏳
 ```
 .
+├── November 17, 2023: Deadline for Milestone 2
 ├── December 1, 2023: Homework 2 Deadline
 ├── December 10, 2023: Create an initial draft for the data story
 ├── December 15, 2023: Complete the code implementations and visualizations
@@ -48,6 +49,17 @@ We performed linear regression to see the correlation between the time duration 
 .
 
 ```
+
+## Organization within the team
+Imane: 
+
+Xiyu: 
+
+Zach: 
+
+Antoine: Data pre-processing. Actors' related research question
+
+Lina 
 
 
 
