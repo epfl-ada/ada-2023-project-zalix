@@ -63,13 +63,13 @@ We performed linear regression to see the correlation between the time duration 
 ## Organization within the team
 Imane: 
 
-Xiyu: 
+Xiyu: Genres and movies duration analysis 
 
-Zach: carrying out analysis around impact on ratings by cast ethnic, gender and linguistic diversity
+Zach: Carrying out analysis around impact on ratings by cast ethnic, gender and linguistic diversity
 
 Antoine: Data pre-processing. Actors' related research question
 
-Lina 
+Lina: Genres and movies duration analysis 
 
 
 
