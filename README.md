@@ -1,28 +1,31 @@
-# An evolutionary view on the making of good films 🎬
+# An Evolutionary View on The Making of Good Films 🎬
 
 ## Abstract
 
-The impact of historical events on the influence of movies is undeniable. During periods of societal change, films often reflect prevailing sentiments, offering either escapism or relevant narratives. As cultural norms shift over decades, so too do audience tastes, influencing preferences for certain themes and genres. 
-
-After World War II, for example, there was a desire for stability, optimism, and a sense of normalcy. This shift in societal mood was reflected in the popularity of films that offered a form of escapism and optimism. As a result, genres such as musicals, romantic comedies, and family-friendly dramas gained prominence. These genres provided audiences with a break from the harsh realities of war and offered a more lighthearted and optimistic view of life. 
+The impact of historical events on the influence of movies is undeniable. During periods of societal changes, films often reflect prevailing sentiments, collective values and historical events. As cultural norms shift with time, so do audience preferences and tastes in films. This influence reflects directly on the audience ratings of the stories that movie-makers seek to tell, giving us a unique lens to examine how people's perception of "a good film" has evolved over time. 
 
 
 ## Research Questions 🔎
 
-In our analysis, our objective is to evaluate whether the audience's perception of a good movie has undergone any evolution over time. To explore the potential impact of time on audience movie preferences, we have focused on addressing these key research questions:
+In our analysis, our objective is to evaluate the shift in the audience's perception of good films over time. We do this by focusing on the following key perspectives and answering their related research questions:
 
--Within the 10 most common film genres, which genre and/or combination of genres were the most appreciated and high-rated during each decade ? Did any particular genre stand out and could be symbolizing a historical turning point ? 
+Genre and Runtime 
+- Which genres and/or combination of genres are the most appreciated and supported by higher ratings? Did any particular genre stand out in the test of time? Did any genre have a meteoric rise that symbolizes a turning point in movie history? 
 
--Are there any trends or patterns in the distribution of durations for top-rated films over the years and is there a significant difference in the distribution of durations between different genres among top-rated films?
+- Are there any sweet spots or patterns in the length of top-rated films over the years? Is there a significant difference in the length of good movies across genres?
 
--Does the presence of specific leading actors have a significant impact on film ratings, how the impact of these actors evolved over the years in influencing movie ratings 
+Ethnic, Gender and Language Diversity
+- How has the global actor demographics changed over time in terms of ethnic background, gender and languages spoken? Does the demographic shift translate to more ethnically, gender and linguistically diverse movies produced over the years? More importantly, is a more ethnically, gender and linguistically diverse cast appreciated by the audience and directly contribute to higher movie ratings?
 
+Stars
+- Does star power translate to higher ratings? How has the impact of stars evolved over time in movie ratings?
 
 ## Additional Datasets 📈
-- [**IMDB Movies**](https://www.imdb.com/interfaces/) - In addition to defining a movie successful in financial terms, we want to make the definition more diverse by measuring success in terms of ratings. We have extracted two datasets from IMDb - one for making the merge with our movie data possible (`movie name,` `release year,` and `runtime`) and one for extracting the `average rating` and `number of votes` received.
+- [**IMDB Movies**](https://www.imdb.com/interfaces/) - We measure movie-goers' perception of film quality directly by movie ratings. A dataset from IMDb is extracted to complement the movie dataset with rating information that includes the `average rating` and `number of votes` for each film.
 
 
 ## Methods 🔤
+When dealing with the time-series movie dataset, we first break down our features of interest by decade, and then apply the following methodologies to carry out the analyses:
 
 ### T-tests
 When examining the diverse genres within the dataset, we observe a high number of different genres, with certain genres covering only an insignificant number of movies.
