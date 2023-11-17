@@ -46,6 +46,8 @@ Log scaling is also used for the genre vs number of movies plot.
 ### Linear Regression
 We performed linear regression to see the correlation between the time duration of movies and decades. Nevertheless, we plan to investigate other suitable methodologies in milestone 3 to improve our research approach
 
+### Paired Matching
+To analyze film ratings from a diversity perspective, the dataset is split into two groups: films with a diverse cast (number of ethnicities higher than 2 among actors) and films with a non-diverse cast. We then use a paired matching approach to compare the ratings of the two groups to see if movies with diverse cast are generally rated higher. Logistic regression is performed for propensity matching on all other relevant attributes. Similarly, the analysis is done for the other diversity features of interest: gender and languages.
 
 ## Proposed Timeline ⏳
 ```
