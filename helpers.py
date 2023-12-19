@@ -130,7 +130,7 @@ def import_movies_data(data_path):
     
     #plot summary
     
-    plot_summaries = pd.read_csv(data_path+"MovieSummaries/plot_summaries.txt", sep="\t", header=None)
+    plot_summaries = pd.read_csv(data_path+"CMU/plot_summaries.txt", sep="\t", header=None)
     plot_summaries = plot_summaries.rename(columns={0: "MovieID", 1: "PlotSummary"})
     plot_summaries = plot_summaries.dropna(subset=['PlotSummary'])
 
