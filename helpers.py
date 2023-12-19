@@ -126,13 +126,6 @@ def import_movies_data(data_path):
 
 
     # filtering out movies without rating and 
-    movies = movies[~movies["averageRating"].isna()]
-    
-    #plot summary
-    
-    plot_summaries = pd.read_csv(data_path+"CMU/plot_summaries.txt", sep="\t", header=None)
-    plot_summaries = plot_summaries.rename(columns={0: "MovieID", 1: "PlotSummary"})
-    plot_summaries = plot_summaries.dropna(subset=['PlotSummary'])
+    movies = movies[~movies["averageRating"].isna()] # TODO: rename to 'avg_rating' to stay consistent on naming conventions
 
-
-    return movies,characters,plot_summaries
+    return movies, characters
