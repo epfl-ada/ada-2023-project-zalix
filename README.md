@@ -76,7 +76,7 @@ Zach: Carrying out analysis around impact on ratings by cast ethnic, gender and 
 
 Antoine: Actors' related analysis
 
-Lina: Contritipution to Topic Analysis
+Lina: Carrying out analysis around topics
 
 
 
